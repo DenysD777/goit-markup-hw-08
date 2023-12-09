@@ -1,0 +1,28 @@
+/* Body */
+
+body {
+    font-family: $main-font;
+    color: $first-color-text;
+    background-color: $first-bg-color;
+    
+  }
+  
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+
+/* Main */
+.main {
+    margin: 0;
+  }
+  
