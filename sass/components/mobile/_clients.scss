@@ -2,6 +2,7 @@
  
  .clients{
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -9,8 +10,8 @@
     margin-top: 50px;
    
     &__item{
-    width: 170px;
-    height: 92px;
+      width: 210px;
+      height: 92px;
     }
   }
    
@@ -18,10 +19,11 @@
   
   .clients-link{
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 92px;
+    width: 210px;
+      height: 92px;
     fill:$icon-color;
     border: 1px solid $icon-color;
     border-radius: 4px;

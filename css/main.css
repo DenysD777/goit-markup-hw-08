@@ -481,7 +481,6 @@ body {
 
 /* Ефективні рішення */
 .section--positioning {
-  padding-bottom: 0;
   background-color: #ffffff;
 }
 
@@ -519,6 +518,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-top: 30px;
+  text-align: center;
 }
 .solution-item__text {
   color: #757575;
@@ -703,6 +703,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -710,7 +712,7 @@ body {
   margin-top: 50px;
 }
 .clients__item {
-  width: 170px;
+  width: 210px;
   height: 92px;
 }
 
@@ -724,7 +726,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
@@ -879,9 +881,7 @@ body {
 }
 
 .container--location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -936,8 +936,13 @@ body {
   color: #2196f3;
 }
 
+.contact-information {
+  margin-bottom: 60px;
+}
+
 .footer-container {
-  margin-left: 70px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 .footer-container__title {
   color: #ffffff;
@@ -957,6 +962,9 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style-type: none;
   gap: 10px;
   margin-top: 20px;
@@ -992,20 +1000,13 @@ body {
   fill: #ffffff;
 }
 
-.footer-container-form {
-  margin-left: auto;
-}
-
 .form-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
 }
 
 .footer-label {
   display: block;
-  width: 358px;
-  margin-right: 12px;
+  width: 450px;
   color: #ffffff;
   font-size: 14px;
   font-style: normal;
@@ -1016,9 +1017,10 @@ body {
 }
 
 .footer-input {
-  width: 358px;
+  width: 450px;
   height: 50px;
   margin-top: 20px;
+  margin-bottom: 20px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   border-radius: 4px;
@@ -1048,10 +1050,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: auto;
-  margin-right: auto;
   width: 200px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 28px;
   -ms-flex-negative: 0;
       flex-shrink: 0;

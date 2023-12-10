@@ -7,7 +7,7 @@
   
   }
   .container--location{
-    display: flex;
+    text-align: center;
     align-items: baseline;
   
   }
@@ -63,10 +63,12 @@
     color: $accent-color;
   }
   }
-  
+  .contact-information{
+    margin-bottom: 60px;
+  }
   .footer-container{
-    margin-left: 70px;
-  
+    text-align: center;
+  margin-bottom: 60px;
    &__title{
     color: $third-color-text;
   font-size: 14px;
@@ -83,8 +85,11 @@
  
   .footer-network{
     display: flex;
+    
     margin: 0;
     padding: 0;
+    justify-content: center;
+  
     list-style-type: none;
     gap:10px;
     margin-top: 20px;
@@ -119,18 +124,17 @@
   }
   
   .footer-container-form{
-   margin-left: auto;
+   
   }
   
   
   .form-footer{
-    display: flex;
+    text-align: center;
     }
-  
+
   .footer-label{
     display: block;
-    width: 358px;
-    margin-right: 12px;
+    width: 450px;
   color: $third-color-text;
   font-size: 14px;
   font-style: normal;
@@ -141,9 +145,10 @@
   }
   
   .footer-input{
-    width: 358px;
-  height: 50px;
+    width: 450px;
+    height: 50px;
   margin-top: 20px;
+  margin-bottom: 20px;
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.30);
@@ -170,10 +175,10 @@
   .footer-button{
     display: flex;
     align-items: center;
-    margin-top:auto;
-    margin-right: auto;
-    width: 200px;
+  width: 200px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
    padding-left: 28px;
   flex-shrink: 0;
   border: 0;
