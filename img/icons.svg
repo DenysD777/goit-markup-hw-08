@@ -93,5 +93,11 @@
 <symbol id="spriteicon-check-5" viewBox="0 0 34 32">
 <path fill="#fff" style="fill: var(--color2, #fff); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4267" d="M4.69 16.442l-0.145-0.136-2.724 2.534 9.804 9.186 20.687-19.383-2.706-2.535-17.981 16.831-6.935-6.497z"></path>
 </symbol>
+<symbol id="spriteclose_40px" viewBox="0 0 32 32">
+<path d="M23.733 10.304l-1.504-1.504-5.963 5.963-5.963-5.963-1.504 1.504 5.963 5.963-5.963 5.963 1.504 1.504 5.963-5.963 5.963 5.963 1.504-1.504-5.963-5.963 5.963-5.963z"></path>
+</symbol>
+<symbol id="spritemenu_40px" viewBox="0 0 32 32">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
+</symbol>
 </defs>
 </svg>

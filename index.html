@@ -24,6 +24,12 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       <nav class="navigation">
         <a href="./index.html" class="logo"
           ><span class="logo__title">Web</span>Studio</a>
+          <button type="button" class="header-button is-open" aria-expanded="false" js-menu-container>
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+              <use href="./img/icons.svg#spritemenu_40px" class="icon-menu"></use>
+              <use href="./img/icons.svg#spriteclose_40px" class="icon-close"></use>
+            </svg>
+          </button>
         <div class="nav-container"><ul class="pages">
           <li class="pages__item"><a href="./index.html" class="pages-link pages-link--current">Студія</a></li>
           <li class="pages__item"><a href="./portfolio.html" class="pages-link">Портфоліо</a></li>
@@ -31,18 +37,26 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         </ul> 
         <ul class="contact">
         <li class="contact__item">
-          <a href="mailto:info@devstudio.com" class="contact-link">
-            <svg class="contact-link__icon" width="16px" height="12px">
-              <use href="./img/icons.svg#icon-envelope-hover"></use>
-            </svg> info@devstudio.com</a>
-        </li>
-        <li class="contact__item">
-          <a href="tel:+380961111111" class="contact-link">
+          <a href="tel:+380961111111" class="contact-link tel">
             <svg class="contact-link__icon" width="16px" height="10px">
             <use href="./img/icons.svg#icon-smartphone"></use></svg>
             +38 096 111 11 11</a>
         </li>
-      </ul></div>
+        <li class="contact__item">
+          <a href="mailto:info@devstudio.com" class="contact-link mail">
+            <svg class="contact-link__icon" width="16px" height="12px">
+              <use href="./img/icons.svg#icon-envelope-hover"></use>
+            </svg> info@devstudio.com</a>
+        </li>
+        
+      </ul>
+    <ul class="header-network">
+      <li class="header-network_item"><a href="" class="header-network-link">Instagram</a></li>
+      <li class="header-network_item"><a href="" class="header-network-link">Twitter</a></li>
+      <li class="header-network_item"><a href="" class="header-network-link">Facebook</a></li>
+      <li class="header-network_item"><a href="" class="header-network-link">LinkedIn</a></li>
+    </ul>
+    </div>
       </nav>
       
        
@@ -402,5 +416,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
