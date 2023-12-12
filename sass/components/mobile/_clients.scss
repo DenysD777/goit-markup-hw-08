@@ -1,5 +1,7 @@
  /* Постійні Клієнти */
  
+
+ @media screen and (max-width:767px){
  .clients{
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +17,6 @@
     }
   }
    
-   
-  
   .clients-link{
     display: flex;
     
@@ -36,4 +36,6 @@
     cursor: pointer;
     border: 1px solid $accent-color;
   }
+}
+
 }

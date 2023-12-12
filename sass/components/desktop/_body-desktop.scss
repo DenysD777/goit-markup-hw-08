@@ -6,7 +6,7 @@ body {
     background-color: $first-bg-color;
     
   }
-  
+  @media screen and (min-width:1200px){
   .container {
     width: 1200px;
     margin-left: auto;
@@ -20,7 +20,7 @@ body {
     padding-bottom: 94px;
   }
 
-
+}
 /* Main */
 .main {
     margin: 0;

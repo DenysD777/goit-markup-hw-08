@@ -6,6 +6,8 @@
     padding-bottom: 60px;
   
   }
+
+  @media screen and (min-width:1200px){
   .container--location{
     display: flex;
     align-items: baseline;
@@ -192,4 +194,5 @@
   &__icon{
     margin-left: 10px;
   }
+}
 }

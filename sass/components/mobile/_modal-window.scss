@@ -1,4 +1,6 @@
 /* Модальне вікно */
+
+
 .backdrop{
     position: fixed;
     top:0;
@@ -20,7 +22,8 @@
    
   }
    }
-  
+   
+   @media screen and (max-width:1199px) {
  .modal{
     position: absolute;
     top:50%;
@@ -232,4 +235,4 @@ height: 120px;
   letter-spacing: 0.96px;
   cursor: pointer;
   }
-  
+  }

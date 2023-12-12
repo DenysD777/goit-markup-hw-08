@@ -4,6 +4,8 @@
     background-color: $first-bg-color;
   }
   
+  
+  @media screen and (max-width:767px){
   .solution {
 
   margin: 0;
@@ -50,6 +52,6 @@
     }
     }
  
-  
+}  
  
   

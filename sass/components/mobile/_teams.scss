@@ -4,7 +4,7 @@
     background-color: $fourth-bg-color;
     
   }
-  
+  @media screen and (max-width:767px){
   .teams {
     margin: 0;
     margin-top: 50px;
@@ -30,7 +30,7 @@
   }
   
   
-  
+}  
   .info{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -75,6 +75,7 @@
     }
   }
   
+  
   .network-link{
     display: flex;
     align-items: center;
@@ -103,7 +104,6 @@
       cursor: pointer;
     }
   }
-  
   
   
   
