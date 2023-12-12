@@ -24,27 +24,48 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       <nav class="navigation">
         <a href="./index.html" class="logo"
           ><span class="logo__title">Web</span>Studio</a>
-        <ul class="pages">
-          <li class="pages__item"><a href="./index.html" class="pages-link">Студія</a></li>
+          <button type="button" class="header-button" js-open-menu aria-expanded="false">
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню" class="icon-menu">
+              <use href="./img/icons.svg#spritemenu_40px" ></use>
+              </svg>
+          </button>
+        <div class="nav-container" js-menu-container>
+         <button type="button" class="nav-container-button" js-close-menu>
+          <svg width="40" height="40" class="icon-close">
+            <use href="./img/icons.svg#spriteclose_40px">
+            </use>
+          </svg>
+         </button>
+          <ul class="pages">
+          <li class="pages__item"><a href="./index.html" class="pages-link ">Студія</a></li>
           <li class="pages__item"><a href="./portfolio.html" class="pages-link pages-link--current">Портфоліо</a></li>
           <li class="pages__item"><a href="" class="pages-link">Контакти</a></li>
-        </ul>
-      </nav>
-      
+        </ul> 
         <ul class="contact">
-        <li class="contact__item">
-          <a href="mailto:info@devstudio.com" class="contact-link">
-            <svg class="contact-link__icon" width="16px" height="12px">
-              <use href="./img/icons.svg#icon-envelope-hover"></use>
-            </svg> info@devstudio.com</a>
-        </li>
         <li class="contact__item">
           <a href="tel:+380961111111" class="contact-link">
             <svg class="contact-link__icon" width="16px" height="10px">
             <use href="./img/icons.svg#icon-smartphone"></use></svg>
             +38 096 111 11 11</a>
         </li>
+        <li class="contact__item">
+          <a href="mailto:info@devstudio.com" class="contact-link contact-link--font">
+            <svg class="contact-link__icon" width="16px" height="12px">
+              <use href="./img/icons.svg#icon-envelope-hover"></use>
+            </svg> info@devstudio.com</a>
+        </li>
+        
       </ul>
+    <ul class="header-network">
+      <li class="header-network__item"><a href="" class="header-network-link header-network-link--padding">Instagram</a></li>
+      <li class="header-network__item"><a href="" class="header-network-link">Twitter</a></li>
+      <li class="header-network__item"><a href="" class="header-network-link">Facebook</a></li>
+      <li class="header-network__item"><a href="" class="header-network-link">LinkedIn</a></li>
+    </ul>
+    </div>
+      </nav>
+      
+       
     </div>
     
     
@@ -66,7 +87,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             <a href="" class="gallery-link">
               <div class="gallery-link__img"><img 
                 src="./img/portfolio1.jpg"
-                width="370"
+                width="450"
                 alt="Відкритий сайт на комп'ютері"
               /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"><h3 class="gallery-conteiner__title">Технокряк</h3>
@@ -78,7 +99,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <div class="gallery-link__img"><img 
                 src="./img/portfolio2.jpg"
                 alt="Два баскетболіста"
-                width="370"/><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+                width="450"/><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"><h3 class="gallery-conteiner__title">Постер New Orlean vs Golden Star</h3>
               <p class="gallery-conteiner__text">Дизайн</p></div></a
             >
@@ -88,7 +109,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <div class="gallery-link__img"><img 
                 src="./img/portfolio3.jpg"
                 alt="Емблема ресторана"
-                width="370"
+                width="450"
               /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"> <h3 class="gallery-conteiner__title">Ресторан Seafood</h3>
               <p class="gallery-conteiner__text">Додаток</p></div></a
@@ -96,35 +117,35 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </li>
           <li class="gallery__item">
             <a href="" class="gallery-link">
-              <div class="gallery-link__img"><img src="./img/portfolio4.jpg" alt="Навушники" width="370" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+              <div class="gallery-link__img"><img src="./img/portfolio4.jpg" alt="Навушники" width="450" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"><h3 class="gallery-conteiner__title">Проєкт Prime</h3>
               <p class="gallery-conteiner__text">Маркетинг</p></div></a
             >
           </li>
           <li class="gallery__item">
             <a href="" class="gallery-link">
-              <div class="gallery-link__img"><img src="./img/portfolio5.jpg" alt="Дві коробки" width="370" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+              <div class="gallery-link__img"><img src="./img/portfolio5.jpg" alt="Дві коробки" width="450" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"> <h3 class="gallery-conteiner__title">Проєкт Boxes</h3>
               <p class="gallery-conteiner__text">Додаток</p></div></a
             >
           </li>
           <li class="gallery__item">
             <a href="" class="gallery-link">
-              <div class="gallery-link__img"> <img  src="./img/portfolio6.jpg" alt="Монітор" width="370" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+              <div class="gallery-link__img"> <img  src="./img/portfolio6.jpg" alt="Монітор" width="450" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"> <h3 class="gallery-conteiner__title">Inspiration has no Borders</h3>
               <p class="gallery-conteiner__text">Веб-сайт</p></div></a
             >
           </li>
           <li class="gallery__item">
             <a href="" class="gallery-link">
-              <div class="gallery-link__img"> <img  src="./img/portfolio7.jpg" alt="Книга" width="370" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+              <div class="gallery-link__img"> <img  src="./img/portfolio7.jpg" alt="Книга" width="450" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"><h3 class="gallery-conteiner__title">Видання Limited Edition</h3>
               <p class="gallery-conteiner__text">Дизайн</p></div></a
             >
           </li>
           <li class="gallery__item">
             <a href="" class="gallery-link">
-              <div class="gallery-link__img"> <img  src="./img/portfolio8.jpg" alt="Бірка" width="370" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+              <div class="gallery-link__img"> <img  src="./img/portfolio8.jpg" alt="Бірка" width="450" /><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"> <h3 class="gallery-conteiner__title">Проєкт LAB</h3>
               <p class="gallery-conteiner__text">Маркетинг</p></div></a
             >
@@ -134,7 +155,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <div class="gallery-link__img"> <img 
                 src="./img/portfolio9.jpg"
                 alt="Людина працює на комп'ютері"
-                width="370"/><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
+                width="450"/><div class="gallery-overlay"><span class="gallery-overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</span></div></div>
               <div class="gallery-conteiner"> <h3 class="gallery-conteiner__title">Growing Business</h3>
               <p class="gallery-conteiner__text">Додаток</p></div></a
             >
@@ -196,5 +217,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

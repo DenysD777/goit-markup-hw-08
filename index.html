@@ -24,13 +24,19 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       <nav class="navigation">
         <a href="./index.html" class="logo"
           ><span class="logo__title">Web</span>Studio</a>
-          <button type="button" class="header-button is-open" aria-expanded="false" js-menu-container>
-            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
-              <use href="./img/icons.svg#spritemenu_40px" class="icon-menu"></use>
-              <use href="./img/icons.svg#spriteclose_40px" class="icon-close"></use>
-            </svg>
+          <button type="button" class="header-button" js-open-menu aria-expanded="false">
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню" class="icon-menu">
+              <use href="./img/icons.svg#spritemenu_40px" ></use>
+              </svg>
           </button>
-        <div class="nav-container"><ul class="pages">
+        <div class="nav-container" js-menu-container>
+         <button type="button" class="nav-container-button" js-close-menu>
+          <svg width="40" height="40" class="icon-close">
+            <use href="./img/icons.svg#spriteclose_40px">
+            </use>
+          </svg>
+         </button>
+          <ul class="pages">
           <li class="pages__item"><a href="./index.html" class="pages-link pages-link--current">Студія</a></li>
           <li class="pages__item"><a href="./portfolio.html" class="pages-link">Портфоліо</a></li>
           <li class="pages__item"><a href="" class="pages-link">Контакти</a></li>

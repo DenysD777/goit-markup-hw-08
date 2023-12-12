@@ -1,8 +1,9 @@
 /* Фільтр робіт */
 
 .sorting {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 326px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -13,13 +14,13 @@
     color: $first-color-text;
     background-color: $fourth-bg-color;
     cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
-    text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.48px;
     align-items: center;
     border: 0;
     border-radius: 4px;

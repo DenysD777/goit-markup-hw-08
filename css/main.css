@@ -46,6 +46,8 @@ body {
 }
 .page-header .container--positioning {
   position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header-button {
@@ -53,22 +55,31 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
   border: 0;
   background-color: #ffffff;
   cursor: pointer;
 }
 
-.header-button .icon-close {
-  display: none;
+.header-button:hover .icon-menu, .header-button:focus .icon-menu {
+  fill: #2196f3;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-button.is-open .icon-close {
-  display: block;
+.nav-container-button {
+  position: absolute;
+  padding: 0;
+  top: 10px;
+  right: 15px;
+  border: 0;
+  background-color: #ffffff;
 }
 
-.header-button.is-open .icon-menu {
-  display: none;
+.nav-container-button:hover .icon-close, .nav-container-button:focus .icon-close {
+  fill: #2196f3;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation {
@@ -85,6 +96,7 @@ body {
 
 .nav-container {
   position: absolute;
+  display: none;
   left: 0;
   top: 0;
   padding: 48px 40px;
@@ -92,6 +104,11 @@ body {
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
           box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
   width: 480px;
+  z-index: 99999;
+}
+
+.is-open {
+  display: block;
 }
 
 .pages {
@@ -787,12 +804,12 @@ body {
 
 /* Фільтр робіт */
 .sorting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 326px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -803,13 +820,12 @@ body {
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+  text-align: center;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-align: center;
+  line-height: 26px;
+  letter-spacing: 0.48px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -833,18 +849,17 @@ body {
 }
 
 .gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
-  margin-top: 50px;
+  margin-top: 40px;
   gap: 30px;
+}
+
+.gallery__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .gallery-link {
