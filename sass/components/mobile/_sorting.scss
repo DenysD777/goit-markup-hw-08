@@ -1,4 +1,6 @@
 /* Фільтр робіт */
+@media screen and (max-width:767px){
+  
 
 .sorting {
     display: inline-flex;
@@ -9,6 +11,8 @@
     list-style: none;
     gap:8px;
   }
+}
+
 
   .sorting-button {
     color: $first-color-text;
