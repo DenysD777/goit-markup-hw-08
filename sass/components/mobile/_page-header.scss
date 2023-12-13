@@ -14,13 +14,14 @@
     padding-bottom: 10px;
   }
   .header-button{
-    display: inline-flex;
+    display: flex;
     margin:  0;
+    margin-left: 276px;
     padding: 0;
     border: 0;
     background-color: $first-bg-color;
     cursor: pointer;
- 
+    
    
   }
   .header-button:hover .icon-menu ,.header-button:focus .icon-menu{
