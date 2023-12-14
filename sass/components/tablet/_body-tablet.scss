@@ -1,30 +1,11 @@
 /* Body */
 
-body {
-    font-family: $main-font;
-    color: $first-color-text;
-    background-color: $first-bg-color;
+@media screen and (min-width:768px) and (max-width:1199px) {
     
-  }
-  @media screen and (min-width:768px) and (max-width:1199px) {
-    
-  
-  .container {
+ .container {
     width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .section{
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+   }
 }
 
-/* Main */
-.main {
-    margin: 0;
-  }
+
   

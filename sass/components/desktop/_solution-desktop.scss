@@ -3,54 +3,22 @@
 
 .section--positioning{
     padding-bottom: 0;
-    background-color: $first-bg-color;
+  
   }
   
   .solution {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap:30px;
-  list-style-type: none;
-  
-  &-container{
     display: flex;
+  }
+
+  .solution-container{
+    
     width: 270px;
     height: 120px;
-    background-color: $fourth-bg-color;
-   justify-content: center;
-   align-items: center;
   }
-  
-} 
   
   .solution-item{
     width: 270px;
-   
-    &__title {
-      color: $first-color-text;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.15;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      margin: 0;
-      margin-top: 30px;
-    }
-    
-    &__text {
-      color: $second-color-text;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.7;
-      letter-spacing: 0.03em;
-      margin: 0;
-      margin-top: 10px;
-    }
-    }
- 
-}  
+   }
+ }  
  
   

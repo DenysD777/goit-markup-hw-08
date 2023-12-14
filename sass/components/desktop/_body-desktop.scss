@@ -1,18 +1,9 @@
 /* Body */
 
-body {
-    font-family: $main-font;
-    color: $first-color-text;
-    background-color: $first-bg-color;
-    
-  }
-  @media screen and (min-width:1200px){
+@media screen and (min-width:1200px){
+  
   .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   }
   
   .section{
@@ -20,9 +11,8 @@ body {
     padding-bottom: 94px;
   }
 
-}
-/* Main */
-.main {
-    margin: 0;
+  .container__name {
+    font-size: 36px;
+    letter-spacing: 1.08px;
   }
-  
+}
