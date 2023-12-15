@@ -4,7 +4,7 @@
     background-color: $fourth-bg-color;
     
   }
-  @media screen and (max-width:767px){
+
   .teams {
     margin: 0;
     margin-top: 50px;
@@ -22,41 +22,34 @@
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   }
-   
-  
 }
-  .teams__item:not(:last-child){
-    margin-bottom: 30px;
-  }
-  
-  
-}  
+
   .info{
     padding-top: 30px;
     padding-bottom: 30px;
    
     &__name {
       color: $first-color-text;
+      font-size: 16px;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 1.18;
-      letter-spacing: 0.03em;
+      line-height: normal;
+      letter-spacing: 0.48px;
       margin: 0;
    }
     
     &__speciality {
       color: $second-color-text;
-      font-style: normal;
-      font-weight: 400;
       font-size: 16px;
-      line-height: 1.18;
-      letter-spacing: 0.03em;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
       margin: 0;
       margin-top: 10px;
     }
   }
-  
+
   .network{
     display: flex;
     justify-content: center;
@@ -74,7 +67,6 @@
       border-radius: 50%;
     }
   }
-  
   
   .network-link{
     display: flex;
@@ -104,6 +96,19 @@
       cursor: pointer;
     }
   }
+  
+  @media screen and (max-width:767px){
+
+  .teams__item:not(:last-child){
+    margin-bottom: 30px;
+  }
+  
+  
+}  
+
+  
+
+  
   
   
   

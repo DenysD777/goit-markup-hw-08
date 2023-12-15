@@ -4,12 +4,12 @@
     background-color: $second-bg-color;
     padding-top: 60px;
     padding-bottom: 60px;
-  
   }
  
-  
+  .container--location{
+   align-items: baseline;
+  } 
 
-  @media screen and (max-width:767px){
   .footer-contact {
     list-style-type: none;
     padding: 0;
@@ -20,31 +20,26 @@
       margin-top: 9px;
     }
   }
-   .container--location{
-    text-align: center;
-    align-items: baseline;
-  
-  }
+   
   .address {
     color: $third-color-text;
     margin-top: 20px;
-    font-style: normal;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     letter-spacing: 0.42px;
   }
-  
+
   .page-footer__logo {
     color: $third-color-text;
     font-family: $logo-font;
     text-decoration: none;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.72px;
+   font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.72px;
   
     .logo__text {
     color: $accent-color;
@@ -52,149 +47,163 @@
 }
   
 .footer-contact-link {
-    color: $fourth-color-text;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-   &:hover,
-  &:focus {
-    color: $accent-color;
-  }
-  }
+  color: $fourth-color-text;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .contact-information{
-    margin-bottom: 60px;
-  }
-  .footer-container{
-    text-align: center;
-  margin-bottom: 60px;
-   
-  &__title{
-    color: $third-color-text;
+ &:hover,
+&:focus {
+  color: $accent-color;
+}
+}
+
+.footer-container__title{
+  color: $third-color-text;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+
+.footer-network{
+  display: flex;
   margin: 0;
   padding: 0;
-  }
-  }
-  
- 
-  .footer-network{
-    display: flex;
-    
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-  
-    list-style-type: none;
-    gap:10px;
-    margin-top: 20px;
-  
-    &__items{
-      width: 44px;
-      height:44px;
-      background-color: rgba(255, 255, 255, 0.10);
-      border-radius: 50%;
-     }
-  }
-  
-  
-  
-  .footer-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  list-style-type: none;
+  gap:10px;
+  margin-top: 20px;
+
+  &__items{
     width: 44px;
     height:44px;
+    background-color: rgba(255, 255, 255, 0.10);
     border-radius: 50%;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+   }
+}
+
   
-  &:hover , &:focus{
-    background-color: $accent-color;
-    cursor: pointer;
+.footer-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height:44px;
+  border-radius: 50%;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
+&:hover , &:focus{
+  background-color: $accent-color;
+  cursor: pointer;
+}
+
+&__icon{
+  fill: $third-color-text;
+}
+}
+
+.footer-label{
+  display: block;
+  width: 450px;
+color: $third-color-text;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-input{
+  width: 450px;
+  height: 50px;
+margin-top: 20px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 15px 16px;
+color: $third-color-text;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.48px;
+outline:none;
+
+&:focus{
+  border-color: $accent-color;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.footer-button{
+  display: flex;
+  align-items: center;
+width: 200px;
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+ padding-left: 28px;
+flex-shrink: 0;
+border: 0;
+border-radius: 4px;
+background: $accent-color;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: $third-color-text;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+cursor: pointer;
+
+&__icon{
+  margin-left: 10px;
+}
+}
+
+@media screen and (max-width:1199px){
+  .footer-container{
+text-align: center;
   }
-  
-  &__icon{
-    fill: $third-color-text;
-  }
-  }
-  
-  
-  
+
   .form-footer{
     text-align: center;
     }
 
-  .footer-label{
-    display: block;
-    width: 450px;
-  color: $third-color-text;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-  }
-  
-  .footer-input{
-    width: 450px;
-    height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.30);
-  background: rgba(33, 150, 243, 0.00);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 15px 16px;
-  color: $third-color-text;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.48px;
-  outline:none;
-  
-  &:focus{
-    border-color: $accent-color;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 }
-  
-  .footer-button{
-    display: flex;
-    align-items: center;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-   padding-left: 28px;
-  flex-shrink: 0;
-  border: 0;
-  border-radius: 4px;
-  background: $accent-color;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: $third-color-text;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.96px;
-  cursor: pointer;
-  
-  &__icon{
-    margin-left: 10px;
+
+  @media screen and (max-width:767px){
+  .container--location{
+    text-align: center;
   }
-}
+
+.contact-information{
+    margin-bottom: 60px;
+  }
+ 
+.footer-container{
+     margin-bottom: 60px;
+  }
+  
+ 
+  .footer-network{
+    justify-content: center;
+  }
+  
+.footer-input{
+    margin-bottom: 20px;
+ }
+
 }

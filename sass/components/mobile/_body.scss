@@ -4,6 +4,7 @@ body {
     font-family: $main-font;
     color: $first-color-text;
     background-color: $first-bg-color;
+    
     }
   
   /* Main */
@@ -12,6 +13,7 @@ body {
   }
 
  .container {
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
