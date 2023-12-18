@@ -221,8 +221,8 @@ body {
 /* Hero */
 .section--design {
   max-width: 1600px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/hero-img/img-mobile1x.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero-img/img-mobile1x.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/img-mobile1x.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/img-mobile1x.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 118px;
@@ -278,7 +278,8 @@ body {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("/img/hero-img/img-mobile2x@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/img-mobile2x@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/img-mobile2x@2x.jpg");
   }
 }
 /* Модальне вікно */
@@ -1237,14 +1238,14 @@ body {
 /* Hero */
 @media screen and (min-width: 767px) {
   .section--design {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/hero-img/img-tablet1x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero-img/img-tablet1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/img-tablet1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/img-tablet1x.jpg");
   }
 }
 @media screen and (min-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/hero-img/img-tablet2x@2x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero-img/img-tablet2x@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/img-tablet2x@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/img-tablet2x@2x.jpg");
   }
 }
 /* Ефективні рішення */
@@ -1384,8 +1385,8 @@ body {
   .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/hero-img/Img-desktop1x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero-img/Img-desktop1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/Img-desktop1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/Img-desktop1x.jpg");
   }
   .container__title {
     font-size: 44px;
@@ -1396,8 +1397,8 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/hero-img/Img-desktop2x@2x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/hero-img/Img-desktop2x@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("./img/hero-img/Img-desktop2x@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("./img/hero-img/Img-desktop2x@2x.jpg");
   }
 }
 /* Модальне вікно */
