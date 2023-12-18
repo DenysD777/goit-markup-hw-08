@@ -10,14 +10,11 @@
 
 .gallery-link {
     
-  display: inline-block;
+  
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
-  &__img{
-  position: relative;
-  overflow: hidden;
-  }
+ 
 
   &:hover,
   &:focus{
@@ -29,6 +26,13 @@
   }
 }
 
+ .img-container{
+  position: relative;
+  overflow: hidden;
+  }
+.gallery-img{
+  width: 100%;
+}
 .gallery-overlay{
   position: absolute;
   display: inline-block;

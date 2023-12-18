@@ -24,7 +24,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       <nav class="navigation">
         <a href="./index.html" class="logo"
           ><span class="logo__title">Web</span>Studio</a>
-          <button type="button" class="header-button" js-open-menu aria-expanded="false">
+          <button type="button" class="header-button"  aria-expanded="false" js-open-menu>
             <svg width="40" height="40" aria-label="Перемикач мобільного меню" class="icon-menu">
               <use href="./img/icons.svg#spritemenu_40px" ></use>
               </svg>
@@ -186,20 +186,25 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         <h2 class="container__name">Чим ми займаємося</h2>
         <ul class="development">
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" src="./img/img1.jpg" alt="Розробник пише код" width="370"/>
+            <div class="development-link"><img class="development-link__img" 
+              srcset="./img/development-img/1job-320.jpg 1x,
+              ./img/development-img/1job-640.jpg 2x"  
+               src="./img/development-img/1job-320.jpg" alt="Розробник пише код" width="370"/>
             <div class="development-title"><span class="development-title__text">Десктопні додатки</span></div>
           </div></li>
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" 
-              src="./img/img2.jpg"
+            <div class="development-link"><img class="development-link__img" srcset="./img/development-img/2job-320.jpg 1x,
+              ./img/development-img/2job-640.jpg 2x"  
+              src="./img/development-img/2job.jpg"
               alt="Розробник підключає телефон до компьютера"
               width="370"/>
               <div class="development-title"><span class="development-title__text">Мобільні додатки
             </span></div></div>
           </li>
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" 
-              src="./img/img3.jpg"
+            <div class="development-link"><img class="development-link__img" srcset="./img/development-img/3job-320.jpg 1x,
+              ./img/development-img/3job-640.jpg 2x"  
+              src="./img/development-img/3job.jpg"
               alt="Тест на сприйняття кольорів"
               width="370"/>
               <div class="development-title"><span class="development-title__text">Дизайнерські рішення</span></div>
@@ -211,11 +216,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         <div class="container"><h2 class="container__name">Наша команда</h2>
         <ul class="teams">
           <li class="teams__item">
-            <img class="teams-img"
-              src="./img/human1.jpg"
-              alt="Фото Ігор Дем'яненко"
-              width="450"
-            />
+            <img class="teams-img" srcset="./img/teams-img/human1-320.jpg 1x, ./img/teams-img/human1-640.jpg 2x"
+              src="./img/teams-img/human1-320.jpg"
+              alt="Фото Ігор Дем'яненко"/>
            <div class="info">
             <h3 class="info__name">Ігор Дем'яненко</h3>
             <p class="info__speciality">Product Designer</p>
@@ -236,7 +239,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               </svg></a></li>
             </ul></div></li>
           <li class="teams__item">
-            <img class="teams-img" src="./img/human2.jpg" alt="Фото Ольга Рєпіна" width="450" />
+            <img class="teams-img" srcset="./img/teams-img/human2-320.jpg 1x, ./img/teams-img/human2-640.jpg 2x" src="./img/teams-img/human2-320.jpg" alt="Фото Ольга Рєпіна"  />
             <div class="info"><h3 class="info__name">Ольга Рєпіна</h3>
             <p class="info__speciality">Frontend Developer</p>
             <ul class="network">
@@ -257,7 +260,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             </ul></div>
           </li>
           <li class="teams__item">
-            <img class="teams-img" src="./img/human3.jpg" alt="Фото Микола Тарасов" width="450" />
+            <img class="teams-img" srcset="./img/teams-img/human3-320.jpg 1x, ./img/teams-img/human3-640.jpg 2x" src="./img/teams-img/human3-320.jpg" alt="Фото Микола Тарасов"  />
             <div class="info"><h3 class="info__name">Микола Тарасов</h3>
             <p class="info__speciality">Marketing</p>
             <ul class="network">
@@ -279,10 +282,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </li>
           <li class="teams__item">
             <img class="teams-img"
-              src="./img/human4.jpg"
-              alt="Фото Михайло Єрмаков"
-              width="450"
-            />
+            srcset="./img/teams-img/human4-320.jpg 1x, ./img/teams-img/human4-640.jpg 2x"
+              src="./img/teams-img/human4-320.jpg"
+              alt="Фото Михайло Єрмаков"/>
             <div class="info"><h3 class="info__name">Михайло Єрмаков</h3>
             <p class="info__speciality">UI Designer</p> 
             <ul class="network">

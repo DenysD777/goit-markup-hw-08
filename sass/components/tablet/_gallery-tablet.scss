@@ -6,7 +6,10 @@
     margin-top: 50px;
   
   }
-
+ 
+ .gallery__item{
+  width: calc((100% - 30px)/2);
+ } 
 }
 
 

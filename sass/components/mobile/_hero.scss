@@ -1,34 +1,32 @@
 /* Hero */
 
-@media screen and (max-width:1199px){
-
 .section--design {
-    max-width: 1600px;
-    background-image: linear-gradient( rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40) ),url('../img/Img.jpg');
-    background-size: cover;
-    text-align: center;
-    padding-top: 118px;
-    padding-bottom: 118px;
-    margin-left: auto;
+  max-width: 1600px;
+  background-image: linear-gradient( rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40) ),url('/img/hero-img/img-mobile1x.jpg');
+  background-size: cover;
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  margin-left: auto;
   margin-right: auto;  
-  }
-  
-  .container__title {
+}
+
+.container__title {
     color: $third-bg-color;
     margin: 0;
     text-align: center;
     font-size: 26px;
     font-style: normal;
     font-weight: 900;
-    line-height: 42px; 
+    line-height: 42px;
     letter-spacing: 1.56px;
     text-transform: uppercase;
-  width: 360px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
     }
    
-  .button-hero {
+ .button-hero {
     color: $third-color-text;
     background-color: $accent-color;
     cursor: pointer;
@@ -36,7 +34,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 30px; 
     letter-spacing: 0.96px;
     text-align: center;
     align-items: center;
@@ -50,6 +48,12 @@
   &:hover,&:focus{
     transform: scale(1.05);
   }
-}
-}  
-  
+
+ }
+@media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx){
+  .section--design {
+    background-image: linear-gradient( rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40) ),url('/img/hero-img/img-mobile2x.jpg');
+  }
+  }
