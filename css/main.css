@@ -1236,7 +1236,7 @@ body {
 /* Hero */
 @media screen and (min-width: 767px) {
   .section--design {
-    background-image: url("../img/img-tablet1x.jpg");
+    background-image: url("../img/img-tablet.jpg");
   }
 }
 @media screen and (min-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (min-resolution: 2dppx) {
@@ -1381,7 +1381,7 @@ body {
   .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("../img/Img-desktop1x.jpg");
+    background-image: url("../img/img-desktop.jpg");
   }
   .container__title {
     font-size: 44px;
@@ -1392,7 +1392,7 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../img/Img-desktop@2x.jpg");
+    background-image: url("../img/img-desktop@2x.jpg");
   }
 }
 /* Модальне вікно */

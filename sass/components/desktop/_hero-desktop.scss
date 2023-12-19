@@ -3,7 +3,7 @@
 .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image:   url('../img/Img-desktop1x.jpg');
+    background-image:   url('../img/img-desktop.jpg');
   }
   
   .container__title {
@@ -18,7 +18,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
    .section--design {
-     background-image: url('../img/Img-desktop@2x.jpg');
+     background-image: url('../img/img-desktop@2x.jpg');
    }
    }
 
