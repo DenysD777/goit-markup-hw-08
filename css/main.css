@@ -221,7 +221,7 @@ body {
 /* Hero */
 .section--design {
   max-width: 1600px;
-  background-image: url("../../../img/img-mobile1x.jpg");
+  background-image: url("/img/img-mobile.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 118px;
@@ -275,9 +275,9 @@ body {
           transform: scale(1.05);
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../../../img/img-mobile@2x.jpg");
+    background-image: url("/img/img-mobile@2x.jpg");
   }
 }
 /* Модальне вікно */
@@ -1236,12 +1236,12 @@ body {
 /* Hero */
 @media screen and (min-width: 767px) {
   .section--design {
-    background-image: url("../../../img/img-tablet1x.jpg");
+    background-image: url("/img/img-tablet1x.jpg");
   }
 }
 @media screen and (min-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../../../img/img-tablet@2x.jpg");
+    background-image: url("/img/img-tablet@2x.jpg");
   }
 }
 /* Ефективні рішення */
@@ -1381,7 +1381,7 @@ body {
   .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("../../../img/Img-desktop1x.jpg");
+    background-image: url("/img/Img-desktop1x.jpg");
   }
   .container__title {
     font-size: 44px;
@@ -1392,7 +1392,7 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../../../img/Img-desktop@2x.jpg");
+    background-image: url("/img/Img-desktop@2x.jpg");
   }
 }
 /* Модальне вікно */

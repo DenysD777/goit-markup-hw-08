@@ -2,7 +2,7 @@
 
 .section--design {
   max-width: 1600px;
-  background-image: url('/img/img-mobile1x.jpg');
+  background-image: url('/img/img-mobile.jpg');
   background-size: cover;
   text-align: center;
   padding-top: 118px;
@@ -51,6 +51,7 @@
 
  }
  @media(min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
  (min-resolution: 2dppx){
   .section--design {
