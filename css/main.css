@@ -1383,16 +1383,18 @@ body {
     padding-bottom: 200px;
     background-image: url("../img/img-desktop.jpg");
   }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section--design {
+    background-image: url("../img/img-desktop@2x.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
   .container__title {
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 2.64px;
     width: 696px;
-  }
-}
-@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .section--design {
-    background-image: url("../img/img-desktop@2x.jpg");
   }
 }
 /* Модальне вікно */

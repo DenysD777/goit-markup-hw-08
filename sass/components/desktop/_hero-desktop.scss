@@ -5,23 +5,21 @@
     padding-bottom: 200px;
     background-image: url('../img/img-desktop.jpg');
   }
-  
-  .container__title {
-   font-size: 44px;
-   line-height: 60px;
-   letter-spacing: 2.64px;
-   width: 696px;
-  }
    
- 
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
    .section--design {
      background-image: url('../img/img-desktop@2x.jpg');
    }
-   }
+}
 
 
+  .container__title {
+   font-size: 44px;
+   line-height: 60px;
+   letter-spacing: 2.64px;
+   width: 696px;
+  }
 }  
   
