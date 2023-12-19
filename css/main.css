@@ -220,6 +220,7 @@ body {
 }
 /* Hero */
 .section--design {
+  display: inline-block;
   max-width: 1600px;
   background-image: url("/img/img-mobile.jpg");
   background-size: cover;

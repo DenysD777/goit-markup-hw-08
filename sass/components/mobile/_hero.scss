@@ -1,6 +1,7 @@
 /* Hero */
 
 .section--design {
+  display: inline-block;
   max-width: 1600px;
   background-image: url('/img/img-mobile.jpg');
   background-size: cover;
@@ -51,8 +52,7 @@
 
  }
  @media(min-device-pixel-ratio: 2),
- (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
+ (min-resolution: 192dpi),
  (min-resolution: 2dppx){
   .section--design {
     background-image: url('/img/img-mobile@2x.jpg');
