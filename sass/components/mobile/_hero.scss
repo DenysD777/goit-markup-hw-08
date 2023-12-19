@@ -2,7 +2,7 @@
 
 .section--design {
   max-width: 1600px;
-  background-image:     url('../../../img/img-mobile1x.jpg');
+  background-image: url('/img/img-mobile1x.jpg');
   background-size: cover;
   text-align: center;
   padding-top: 118px;
@@ -50,10 +50,10 @@
   }
 
  }
- @media screen and (min-device-pixel-ratio: 2),
- screen and (min-resolution: 192dpi),
- screen and (min-resolution: 2dppx){
+ @media(min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+ (min-resolution: 2dppx){
   .section--design {
-    background-image: url('../../../img/img-mobile@2x.jpg');
+    background-image: url('/img/img-mobile@2x.jpg');
   }
   }
