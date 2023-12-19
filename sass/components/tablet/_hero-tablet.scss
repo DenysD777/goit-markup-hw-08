@@ -1,15 +1,15 @@
 /* Hero */
 @media screen and (min-width:767px) {
     .section--design{
-      background-image: url('../../../img/img-tablet1x.jpg');
+      background-image: url('/img/img-tablet1x.jpg');
     }
     
   
-    @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx){
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
     .section--design {
-      background-image: url('../../../img/img-tablet@2x.jpg');
+      background-image: url('/img/img-tablet@2x.jpg');
     }
     }
 

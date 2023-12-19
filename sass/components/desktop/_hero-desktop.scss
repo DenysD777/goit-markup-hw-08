@@ -3,7 +3,7 @@
 .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image:   url('../../../img/Img-desktop1x.jpg');
+    background-image:   url('/img/Img-desktop1x.jpg');
   }
   
   .container__title {
@@ -14,11 +14,11 @@
   }
    
  
-  @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx){
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
    .section--design {
-     background-image: url('../../../img/Img-desktop@2x.jpg');
+     background-image: url('/img/Img-desktop@2x.jpg');
    }
    }
 
