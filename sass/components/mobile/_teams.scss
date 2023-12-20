@@ -33,9 +33,7 @@
    
     &__name {
       color: $first-color-text;
-      font-size: 16px;
       font-style: normal;
-      font-weight: 500;
       line-height: normal;
       letter-spacing: 0.48px;
       margin: 0;
@@ -43,9 +41,7 @@
     
     &__speciality {
       color: $second-color-text;
-      font-size: 16px;
 font-style: normal;
-font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
       margin: 0;
@@ -108,7 +104,45 @@ letter-spacing: 0.48px;
   
   
 }  
+@media screen  and (max-width:479px){
+  .container__title {
+    width: 80%;
+    }
 
+    .info__name {
+      
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      
+   }
+
+   .info__speciality {
+    font-size: 10px;
+font-style: normal;
+font-weight: 300;
+
+  }
+
+}
+  @media screen and (min-width:480px) and (max-width:767px){
+
+    .container__title {
+      width: 360px;
+      }
+
+      .info__name {
+        font-size: 16px;
+        font-weight: 500;
+        
+     }
+
+     .info__speciality {
+      font-size: 16px;
+      font-weight: 400;
+
+    }
+  }
   
 
   

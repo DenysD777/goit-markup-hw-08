@@ -11,22 +11,16 @@
     
     &-container{
       display: flex;
-      width: 450px;
-      height: 120px;
+     height: 120px;
       background-color: $fourth-bg-color;
      justify-content: center;
      align-items: center;
     }
   } 
-  .solution-item{
-    width: 450px;
-   
-    &__title {
+  
+    .solution__title {
       color: $first-color-text;
-      font-size: 14px;
       font-style: normal;
-      font-weight: 700;
-      line-height: 24px; 
       letter-spacing: 0.42px;
       text-transform: uppercase;
       margin: 0;
@@ -34,17 +28,14 @@
       
     }
     
-    &__text {
+    .solution__text {
       color: $second-color-text;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 0.42px;
+     font-style: normal;
+     letter-spacing: 0.42px;
       margin: 0;
       margin-top: 10px;
     }
-    }
+    
     @media screen and (max-width:767px){
      .solution-item{
       text-align: center;
@@ -53,3 +44,58 @@
       margin-bottom: 30px;
      }
     }
+
+    @media screen  and (max-width:479px){
+      .solution-container{
+        display: flex;
+        width: 100%;
+        
+       
+      }
+
+      .solution-item{
+        width: 100%;
+      }    
+      .solution__title {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px; 
+      
+        
+      }
+      
+      .solution__text {
+       font-size: 12px;
+        font-weight: 350;
+        line-height: 20px;
+      
+       
+      }
+    }
+      @media screen and (min-width:480px) and (max-width:767px){
+   
+        .solution-container{
+          display: flex;
+          width: 450px;
+          }
+  
+          .solution-item{
+            width: 450px;
+          }  
+          .solution__title {
+            
+            font-size: 14px;
+           
+            font-weight: 700;
+            line-height: 24px; 
+            
+            
+          }
+          
+          .solution__text {
+            font-size: 14px;
+           font-weight: 400;
+            line-height: 24px;
+          
+          }
+      }

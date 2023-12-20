@@ -8,18 +8,13 @@
   gap:30px;
   margin-top: 50px;
  
-  &__item{
-    width: 210px;
-    height: 92px;
-  }
+ 
 }
 
 .clients-link{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 210px;
-  height: 92px;
   fill:$icon-color;
   border: 1px solid $icon-color;
   border-radius: 4px;
@@ -35,3 +30,29 @@
 }
 
 
+  
+@media screen  and (max-width:479px){
+  .clients{
+   justify-content: center;
+  }
+  .clients__item{
+    width: 75%;
+    height: 92px;
+  }
+
+  .clients-link{
+    width:100%;
+    height: 92px;
+  }
+}
+  @media screen and (min-width:480px) and (max-width:767px){
+
+    .clients__item{
+      width: 210px;
+      height: 92px;
+    }
+    .clients-link{
+      width: 210px;
+      height: 92px;
+    }
+  }

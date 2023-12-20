@@ -13,7 +13,6 @@ body {
   }
 
  .container {
-    width: 480px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -39,3 +38,17 @@ body {
 
 
   
+  @media screen  and (max-width:479px){
+    .container {
+      width: 100%;
+      
+    }
+  }
+    @media screen and (min-width:480px) and (max-width:767px){
+ 
+      .container {
+        width: 480px;
+      
+      }
+
+    }
