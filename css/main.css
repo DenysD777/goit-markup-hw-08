@@ -221,7 +221,8 @@ body {
 /* Hero */
 .section--design {
   max-width: 1600px;
-  background-image: url("../img/img-mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-mobile.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-mobile.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 118px;
@@ -277,7 +278,8 @@ body {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../img/img-mobile@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-mobile@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-mobile@2x.jpg");
   }
 }
 /* Модальне вікно */
@@ -608,7 +610,6 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-top: 30px;
-  text-align: center;
 }
 .solution-item__text {
   color: #757575;
@@ -621,6 +622,14 @@ body {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .solution-item {
+    text-align: center;
+  }
+  .solution-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 /* Що ми робимо */
 @media screen and (max-width: 1199px) {
   .section--bgr {
@@ -849,6 +858,8 @@ body {
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #ECECEC;
+  border-top: 0;
 }
 .gallery-link:hover, .gallery-link:focus {
   -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -896,8 +907,6 @@ body {
 
 .gallery-conteiner {
   padding: 20px 24px;
-  border: 1px solid #ECECEC;
-  border-top: 0;
 }
 .gallery-conteiner__title {
   color: #212121;
@@ -1113,6 +1122,9 @@ body {
   .footer-container {
     text-align: center;
   }
+  .contact-information {
+    text-align: center;
+  }
   .form-footer {
     text-align: center;
   }
@@ -1236,12 +1248,14 @@ body {
 /* Hero */
 @media screen and (min-width: 767px) {
   .section--design {
-    background-image: url("../img/img-tablet.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-tablet.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-tablet.jpg");
   }
 }
 @media screen and (min-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 767px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../img/img-tablet@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-tablet@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-tablet@2x.jpg");
   }
 }
 /* Ефективні рішення */
@@ -1252,13 +1266,11 @@ body {
   }
   .solution-container {
     width: 354px;
-    height: 120px;
+  }
+  .solution-item {
+    width: calc((100% - 30px) / 2);
   }
 }
-.solution-item {
-  width: 354px;
-}
-
 @media screen and (min-width: 768px) {
   .solution {
     display: -webkit-box;
@@ -1311,7 +1323,17 @@ body {
     margin-top: 50px;
   }
   .gallery__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199) {
+  .gallery-link {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 /* Footer */
@@ -1381,12 +1403,14 @@ body {
   .section--design {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url("../img/img-desktop.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-desktop.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-desktop.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section--design {
-    background-image: url("../img/img-desktop@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4))), url("../img/img-desktop@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("../img/img-desktop@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1431,17 +1455,11 @@ body {
   .section--positioning {
     padding-bottom: 0;
   }
-  .solution {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .solution-container {
     width: 270px;
-    height: 120px;
   }
   .solution-item {
-    width: 270px;
+    width: calc((100% - 90px) / 4);
   }
 }
 /* Що ми робимо */

@@ -1,7 +1,7 @@
 /* Hero */
 @media screen and (min-width:767px)  {
     .section--design{
-      background-image: url('../img/img-tablet.jpg');
+      background-image:linear-gradient( rgba(47, 48, 58, 0.40)), url('../img/img-tablet.jpg');
     }
     
   
@@ -9,7 +9,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx){
     .section--design {
-      background-image: url('../img/img-tablet@2x.jpg');
+      background-image:linear-gradient( rgba(47, 48, 58, 0.40)), url('../img/img-tablet@2x.jpg');
     }
     }
 

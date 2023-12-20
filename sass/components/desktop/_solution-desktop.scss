@@ -5,19 +5,14 @@
     padding-bottom: 0;
   
   }
-  
-  .solution {
-    display: flex;
-  }
-
   .solution-container{
     
     width: 270px;
-    height: 120px;
+    
   }
   
   .solution-item{
-    width: 270px;
+    width: calc((100% - 3*30px)/4);
    }
  }  
  
