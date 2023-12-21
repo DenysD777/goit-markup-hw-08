@@ -4,6 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 /* Main */
@@ -157,7 +158,6 @@ body {
     display: none;
     left: 0;
     top: 0;
-    padding: 48px 40px;
     background: #ffffff;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
             box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
@@ -166,6 +166,7 @@ body {
   }
   .is-open {
     display: block;
+    position: fixed;
   }
   .pages {
     margin: 0 0 306px 0;
@@ -207,12 +208,8 @@ body {
   .header-network-link {
     color: #2196f3;
     height: 22px;
-    padding: 0 10px 0 10px;
     text-decoration: none;
-    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
     letter-spacing: 0.36px;
   }
   .header-network-link--padding {
@@ -226,10 +223,28 @@ body {
   .header-button {
     margin-left: auto;
   }
+  .header-network-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 5px 0 5px;
+  }
+  .nav-container {
+    padding: 36px 20px;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .header-button {
     margin-left: 276px;
+  }
+  .header-network-link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 0 10px 0 10px;
+  }
+  .nav-container {
+    padding: 48px 40px;
   }
 }
 /* Hero */
@@ -619,7 +634,7 @@ body {
           align-items: center;
 }
 
-.solution__title {
+.solution-item__title {
   color: #212121;
   font-style: normal;
   letter-spacing: 0.42px;
@@ -628,7 +643,7 @@ body {
   margin-top: 30px;
 }
 
-.solution__text {
+.solution-item__text {
   color: #757575;
   font-style: normal;
   letter-spacing: 0.42px;
@@ -654,12 +669,12 @@ body {
   .solution-item {
     width: 100%;
   }
-  .solution__title {
+  .solution-item__title {
     font-size: 12px;
     font-weight: 600;
     line-height: 20px;
   }
-  .solution__text {
+  .solution-item__text {
     font-size: 12px;
     font-weight: 350;
     line-height: 20px;
@@ -675,12 +690,12 @@ body {
   .solution-item {
     width: 450px;
   }
-  .solution__title {
+  .solution-item__title {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
   }
-  .solution__text {
+  .solution-item__text {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -1395,12 +1410,12 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
-  .solution__title {
+  .solution-item__title {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
   }
-  .solution__text {
+  .solution-item__text {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;

@@ -4,9 +4,11 @@ body {
     font-family: $main-font;
     color: $first-color-text;
     background-color: $first-bg-color;
+    overflow-x: hidden;
     
     }
-  
+ 
+    
   /* Main */
  .main {
     margin: 0;
