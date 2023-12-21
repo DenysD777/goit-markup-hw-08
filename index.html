@@ -186,27 +186,36 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         <h2 class="container__name">Чим ми займаємося</h2>
         <ul class="development">
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" 
-              srcset="./img/development-img/1job-320.jpg 1x,
-              ./img/development-img/1job-640@2x.jpg 2x"  
-               src="./img/development-img/1job-320.jpg" alt="Розробник пише код" width="370"/>
+            <div class="development-link">
+              <picture> 
+                <source  
+                srcset="./img/development-img/job1@1x.jpg 1x,
+              ./img/development-img/job1@2x.jpg 2x" 
+              media="(min-width:1200px)" />
+               <img class="development-link__img" 
+               src="./img/development-img/job1@1x.jpg" alt="Розробник пише код" width="370"/>  </picture>
+             
             <div class="development-title"><span class="development-title__text">Десктопні додатки</span></div>
           </div></li>
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" srcset="./img/development-img/2job-320.jpg 1x,
-              ./img/development-img/2job-640@2x.jpg 2x"  
-              src="./img/development-img/2job.jpg"
-              alt="Розробник підключає телефон до компьютера"
-              width="370"/>
+            <div class="development-link"><picture> 
+              <source  
+              srcset="./img/development-img/job2@1x.jpg 1x,
+            ./img/development-img/job2@2x.jpg 2x" 
+            media="(min-width:1200px)" />
+             <img class="development-link__img" 
+             src="./img/development-img/job2@1x.jpg" alt="Розробник підключає телефон до компьютера" width="370"/>  </picture>
               <div class="development-title"><span class="development-title__text">Мобільні додатки
             </span></div></div>
           </li>
           <li class="development__item">
-            <div class="development-link"><img class="development-link__img" srcset="./img/development-img/3job-320.jpg 1x,
-              ./img/development-img/3job-640@2x.jpg 2x"  
-              src="./img/development-img/3job.jpg"
-              alt="Тест на сприйняття кольорів"
-              width="370"/>
+            <div class="development-link"><picture> 
+              <source  
+              srcset="./img/development-img/job3@1x.jpg 1x,
+            ./img/development-img/job3@2x.jpg 2x" 
+            media="(min-width:1200px)" />
+             <img class="development-link__img" 
+             src="./img/development-img/job3@1x.jpg" alt="Тест на сприйняття кольорів" width="370"/>  </picture>
               <div class="development-title"><span class="development-title__text">Дизайнерські рішення</span></div>
           </div></li>
         </ul></div>
@@ -216,9 +225,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         <div class="container"><h2 class="container__name">Наша команда</h2>
         <ul class="teams">
           <li class="teams__item">
-            <img class="teams-img" srcset="./img/teams-img/human1-320.jpg 1x, ./img/teams-img/human1-640.jpg 2x"
-              src="./img/teams-img/human1-320.jpg"
-              alt="Фото Ігор Дем'яненко"/>
+             <picture>
+              <source srcset="./img/teams-img/teams-mobile/teams-mobile1@1x.jpg 1x, ./img/teams-img/teams-mobile/teams-mobile1@2x.jpg 2x"    
+              media="(max-width:767px)"/>
+              <source srcset="./img/teams-img/teams-tablet/teams-tablet1@1x.jpg 1x, ./img/teams-img/teams-tablet/teams-tablet1@2x.jpg 2x"    
+              media="(min-width:768px) and  (max-width:1199px)"/>
+              <source srcset="./img/teams-img/teams-desktop/teams-desktop1@1x.jpg 1x, ./img/teams-img/teams-desktop/teams-desktop1@2x.jpg 2x"    
+              media="(min-width:1200px)"/>
+              <img class="teams-img" 
+              src="./img/teams-img/teams-mobile/teams-mobile1@1x.jpg"
+              alt="Фото Ігор Дем'яненко"/> 
+            </picture>
+           
            <div class="info">
             <h3 class="info__name">Ігор Дем'яненко</h3>
             <p class="info__speciality">Product Designer</p>
@@ -239,7 +257,17 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               </svg></a></li>
             </ul></div></li>
           <li class="teams__item">
-            <img class="teams-img" srcset="./img/teams-img/human2-320.jpg 1x, ./img/teams-img/human2-640.jpg 2x" src="./img/teams-img/human2-320.jpg" alt="Фото Ольга Рєпіна"  />
+            <picture>
+              <source srcset="./img/teams-img/teams-mobile/teams-mobile2@1x.jpg 1x, ./img/teams-img/teams-mobile/teams-mobile2@2x.jpg 2x"    
+              media="(max-width:767px)"/>
+              <source srcset="./img/teams-img/teams-tablet/teams-tablet2@1x.jpg 1x, ./img/teams-img/teams-tablet/teams-tablet2@2x.jpg 2x"    
+              media="(min-width:768px) and  (max-width:1199px)"/>
+              <source srcset="./img/teams-img/teams-desktop/teams-desktop2@1x.jpg 1x, ./img/teams-img/teams-desktop/teams-desktop2@2x.jpg 2x"    
+              media="(min-width:1200px)"/>
+              <img class="teams-img" 
+              src="./img/teams-img/teams-mobile/teams-mobile2@1x.jpg"
+              alt="Фото Ольга Рєпіна"/> 
+            </picture>
             <div class="info"><h3 class="info__name">Ольга Рєпіна</h3>
             <p class="info__speciality">Frontend Developer</p>
             <ul class="network">
@@ -260,7 +288,17 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             </ul></div>
           </li>
           <li class="teams__item">
-            <img class="teams-img" srcset="./img/teams-img/human3-320.jpg 1x, ./img/teams-img/human3-640.jpg 2x" src="./img/teams-img/human3-320.jpg" alt="Фото Микола Тарасов"  />
+            <picture>
+              <source srcset="./img/teams-img/teams-mobile/teams-mobile3@1x.jpg 1x, ./img/teams-img/teams-mobile/teams-mobile3@2x.jpg 2x"    
+              media="(max-width:767px)"/>
+              <source srcset="./img/teams-img/teams-tablet/teams-tablet3@1x.jpg 1x, ./img/teams-img/teams-tablet/teams-tablet3@2x.jpg 2x"    
+              media="(min-width:768px) and  (max-width:1199px)"/>
+              <source srcset="./img/teams-img/teams-desktop/teams-desktop3@1x.jpg 1x, ./img/teams-img/teams-desktop/teams-desktop3@2x.jpg 2x"    
+              media="(min-width:1200px)"/>
+              <img class="teams-img" 
+              src="./img/teams-img/teams-mobile/teams-mobile3@1x.jpg"
+              alt="Фото Микола Тарасов"/> 
+            </picture>
             <div class="info"><h3 class="info__name">Микола Тарасов</h3>
             <p class="info__speciality">Marketing</p>
             <ul class="network">
@@ -281,10 +319,17 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             </ul></div>
           </li>
           <li class="teams__item">
-            <img class="teams-img"
-            srcset="./img/teams-img/human4-320.jpg 1x, ./img/teams-img/human4-640.jpg 2x"
-              src="./img/teams-img/human4-320.jpg"
-              alt="Фото Михайло Єрмаков"/>
+            <picture>
+              <source srcset="./img/teams-img/teams-mobile/teams-mobile4@1x.jpg 1x, ./img/teams-img/teams-mobile/teams-mobile4@2x.jpg 2x"    
+              media="(max-width:767px)"/>
+              <source srcset="./img/teams-img/teams-tablet/teams-tablet4@1x.jpg 1x, ./img/teams-img/teams-tablet/teams-tablet4@2x.jpg 2x"    
+              media="(min-width:768px) and  (max-width:1199px)"/>
+              <source srcset="./img/teams-img/teams-desktop/teams-desktop4@1x.jpg 1x, ./img/teams-img/teams-desktop/teams-desktop4@2x.jpg 2x"    
+              media="(min-width:1200px)"/>
+              <img class="teams-img" 
+              src="./img/teams-img/teams-mobile/teams-mobile4@1x.jpg"
+              alt="Фото Михайло Єрмаков"/> 
+            </picture>
             <div class="info"><h3 class="info__name">Михайло Єрмаков</h3>
             <p class="info__speciality">UI Designer</p> 
             <ul class="network">
