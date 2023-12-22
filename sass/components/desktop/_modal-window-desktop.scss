@@ -14,20 +14,28 @@
 .form-input{
   width: 448px;
 }
-
+.form-container--positioning{
+  
+  margin-bottom: 30px;
+  
+}
 .form-container{
   width: 448px;
+  margin-bottom: 28px;
  }
  .textarea{
+  height: 120px;
   width: 448px;
 }
 .form-label-check{
   font-size: 14px;
   line-height: 24px; 
   letter-spacing: 0.42px;
+  align-items: center;
   
   }
 .check-link{
+  margin-left: 5px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;

@@ -40,13 +40,25 @@
 @media screen and (max-width:767px){
   .sorting {
     flex-wrap: wrap;
-    width: 326px;
+    
   }
 }
 
 
   
+
+
+ @media screen  and (max-width:479px){
+  .sorting {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+ }
+   @media screen and (min-width:480px) and (max-width:767px){
+    .sorting {
+      flex-wrap: wrap;
+      width: 326px;
+    }
   
-  
-  
- 
+      }
