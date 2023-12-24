@@ -72,7 +72,7 @@
     .contact-link {
       text-decoration: none;
       font-style: normal;
-      
+      font-weight: 500;
       color: $accent-color;
       
       line-height: normal;
@@ -158,7 +158,6 @@
         
     .contact-link--font{
       color: $second-color-text;
-      font-size: 24px;
       line-height: normal;
       letter-spacing: 0.48px;
     }
@@ -199,16 +198,17 @@
     }
     .header-network-link{
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 20px; 
       padding: 0 5px 0 5px;
     }
     .nav-container{
-     
+     height: 100%;
       padding: 36px 20px;
   }
   .pages{
-    margin: 0 0 100px 0;  
+    margin: 0 0 180px 0; 
+    
   } 
   .pages__item{
     position:relative ;
@@ -218,15 +218,20 @@
     margin-bottom: 50px;
   }
   .contact-link {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 28px;
     
   }
   .pages-link {
     font-size: 30px;
-    font-weight: 450;
+    font-weight: 500;
 }
+.contact-link--font{
   
+  font-size: 20px;
+  
+ 
+}
   }
   @media screen and (min-width:480px) and (max-width:767px){
  
@@ -259,5 +264,16 @@ padding: 0 10px 0 10px;
     .pages-link {
     font-size: 40px;
     font-weight: 500;
+}
+.contact-link {
+  font-weight: 500;
+  font-size: 34px;
+  
+}
+.contact-link--font{
+  
+  font-size: 24px;
+  
+ 
 }
   }
